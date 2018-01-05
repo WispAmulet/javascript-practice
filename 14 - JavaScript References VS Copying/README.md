@@ -1,10 +1,9 @@
-Note
-===
+# Note
 
-> [预览效果]()
 
-JS
----
+> [预览效果](https://wispamulet.github.io/javascript-practice/14%20-%20JavaScript%20References%20VS%20Copying/index.html)
+
+## JS
 
 对于`Number`、`String`或`Boolean`型数据，可以直接得到一个想要的 copy。
 
@@ -15,7 +14,7 @@ age2 = 200;
 console.log(age, age2); // 100, 200
 ```
 
-对于`Array`或`Object`型数据，直接`B = A;`得到的是 reference 而不是 copy。
+对于`Array`或`Object`型数据，直接`B = A;`，得到的是 reference 而不是 copy。
 
 ```js
 let arr = ['a', 'b', 'c'];
@@ -52,14 +51,14 @@ const person = {
   age: 80
 };
 
-// const captain = person; // ✖
+const captain = person; // ✖
 const cap2 = Object.assign({}, person, { number: 99 }); // ✔
 const cap3 = {...person}; // ✔
 ```
 
 然而，对于嵌套的`Array`或`Object`，以上做法并不起作用
 
-*check clonedeep method for more*
+*search clonedeep method for more*
 
 如果`Object`不是特别复杂，可以使用
 
