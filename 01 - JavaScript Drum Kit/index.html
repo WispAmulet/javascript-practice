@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Drum Kit</title>
-
-  <link rel="stylesheet" href="./css/style.css">
-
+  <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
-
-
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -72,9 +70,9 @@
     }
 
     function removeTransition(e) {
-      // console.log(e);
+      console.log(e);
       if (e.propertyName !== 'transform') return; // skip it if it's not tranform
-      // console.log(e.propertyName);
+      // console.log(e.propertyName); // transform
       // console.log(this);
       this.classList.remove('playing');
     }
@@ -86,7 +84,6 @@
     window.addEventListener('keydown', playSound);
 
   </script>
-
-
 </body>
+
 </html>

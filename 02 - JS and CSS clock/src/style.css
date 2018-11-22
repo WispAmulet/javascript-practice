@@ -1,9 +1,9 @@
 html {
-      background:#018DED url(../src/35c1c7be6c81800af18170abb83533fa838b474e.jpg);
-      background-size:cover;
-      font-family:'helvetica neue';
-      text-align: center;
-      font-size: 10px;
+  background:#018DED url(../src/35c1c7be6c81800af18170abb83533fa838b474e.jpg);
+  background-size:cover;
+  font-family:'helvetica neue';
+  text-align: center;
+  font-size: 10px;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     0 0 0 4px rgba(0,0,0,0.1),
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px black,
-    0 0 10px rgba(0,0,0,0.2);
+    0 0 10px 0 rgba(0,0,0,0.2);
 }
 
 .clock-face {
