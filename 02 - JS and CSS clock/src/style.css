@@ -1,7 +1,7 @@
 html {
-  background:#018DED url(../src/35c1c7be6c81800af18170abb83533fa838b474e.jpg);
-  background-size:cover;
-  font-family:'helvetica neue';
+  background: #018DED url(../src/35c1c7be6c81800af18170abb83533fa838b474e.jpg);
+  background-size: cover;
+  font-family: 'helvetica neue';
   text-align: center;
   font-size: 10px;
 }
@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   font-size: 2rem;
-  display:flex;
-  flex:1;
+  display: flex;
+  flex: 1;
   min-height: 100vh;
   align-items: center;
 }
@@ -18,11 +18,11 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border:20px solid white;
-  border-radius:50%;
-  margin:50px auto;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
   position: relative;
-  padding:2rem;
+  padding: 2rem;
   box-shadow:
     0 0 0 4px rgba(0,0,0,0.1),
     inset 0 0 0 3px #EFEFEF,
@@ -38,30 +38,35 @@ body {
 }
 
 .hand {
-  width:50%;
-  height:6px;
-  background:blue;
+  width: 50%;
+  height: 6px;
+  background: black;
   position: absolute;
-  top:50%;
+  top: 50%;
 
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
+  transition: all .05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .hour-hand {
   width: 30%;
   margin-left: 20%;
-  height: 10px;
-  background: black;
+  /* height: 10px; */
+  border-radius: 80% 2px 2px 80%;
 }
 
 .min-hand {
   width: 40%;
   margin-left: 10%;
-  height: 8px;
-  background: black;
+  /* height: 8px; */
+  border-radius: 80% 2px 2px 80%;
+}
+
+.second-hand {
+  background: blue;
+  border-radius: 80% 2px 2px 80%;
 }

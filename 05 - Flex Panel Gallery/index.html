@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Flex Panels 💪</title>
-  <link href="./css/style.css" rel="stylesheet">
+  <link href="./src//style.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 </head>
-<body>
 
+<body>
   <div class="panels">
     <div class="panel panel1">
       <p>Hey</p>
@@ -36,23 +37,23 @@
     </div>
   </div>
 
-<script>
-const panels = document.querySelectorAll('.panels .panel');
+  <script>
+    const panels = document.querySelectorAll('.panels .panel');
 
-function toggleOpen() {
-  this.classList.toggle('open');
-}
+    function toggleOpen() {
+      this.classList.toggle('open');
+    }
 
-function toggleActive(e) {
-  // console.log(e.propertyName);
-  if (e.propertyName.includes('flex')) {
-    this.classList.toggle('open--active');
-  }
-}
+    function toggleActive(e) {
+      // console.log(e.propertyName);
+      if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open--active');
+      }
+    }
 
-panels.forEach(panel => panel.addEventListener('click', toggleOpen));
-panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
-</script>
-
+    panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+  </script>
 </body>
+
 </html>

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Array Cardio 💪</title>
 </head>
+
 <body>
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+
   <script>
     // Get your shorts on - this is an array workout!
     // ## Array Cardio Day 1
@@ -54,10 +57,10 @@
     //     return 1;
     //   }
     // });
-    const sortedInventorss = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
-    const sortedInventors = inventors.sort((a, b) => b.year - a.year);
-    console.table(sortedInventorss);
+    const sortedInventors = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+    const sortedInventors2 = inventors.sort((a, b) => b.year - a.year);
     console.table(sortedInventors);
+    console.table(sortedInventors2);
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
@@ -68,9 +71,9 @@
 
     // 5. Sort the inventors by years lived
     const oldest = inventors.sort((a, b) => {
-      const someone = a.passed - a.year;
-      const somelse = b.passed - b.year;
-      return someone > somelse ? -1 : 1;
+      const lastGuy = a.passed - a.year;
+      const nextGuy = b.passed - b.year;
+      return lastGuy > nextGuy ? -1 : 1;
     })
     console.table(oldest);
 
@@ -88,14 +91,13 @@
     const alpha = people.sort((a, b) => {
       const [aFirst, aLast] = a.split(', ');
       const [bFirst, bLast] = b.split(', ');
-      // console.log(first, last);
-      return aLast > bLast ? 1: -1;
+      return aLast > bLast ? 1 : -1;
     });
     console.log(alpha);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
-    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
 
     const sum = data.reduce((obj, item) => {
       // console.log(item);
@@ -107,8 +109,8 @@
     }, {});
 
     console.log(sum);
-
-
   </script>
+
 </body>
+
 </html>
