@@ -16,7 +16,7 @@ JS
 const isAdult = people.some(person => (new Date()).getFullYear() - person.year >= 19);
 
 console.log(isAdult); // false
-console.log({isAdult}); // show the name of the variable as well as the value.
+console.log({ isAdult }); // show the name of the variable as well as the value.
 ```
 
 > find(), findIndex()
