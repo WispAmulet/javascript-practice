@@ -57,7 +57,6 @@ checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
 
   + 箭头函数根本没有自己的`this`，导致内部的`this`就是外层代码块的`this`。
 
-
 ```js
 let lastChecked;
 
