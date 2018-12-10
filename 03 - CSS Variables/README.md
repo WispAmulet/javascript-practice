@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/03%20-%20CSS%20Variables/index.html)
-
-HTML
----
+## HTML
 
 > [HTML <label> 标签](http://www.w3school.com.cn/tags/tag_label.asp)
 
@@ -15,8 +11,7 @@ HTML
 
 for 属性规定 label 与对应 id 属性的表单元素`绑定`。
 
-CSS
----
+## CSS
 
 > [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
@@ -49,8 +44,7 @@ img {
 
 `filter: blur(px)`给图像设置高斯模糊。
 
-JS
----
+## JS
 
 ```js
 const inputs = document.querySelectorAll('.controls input'); // NodeList, not Array

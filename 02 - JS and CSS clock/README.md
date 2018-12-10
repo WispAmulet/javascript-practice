@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/02%20-%20JS%20and%20CSS%20clock/index.html)
-
-CSS
----
+## CSS
 
 ```css
 .clock {
@@ -43,8 +39,7 @@ CSS
 `transition-timing-function: ...;`允许过渡效果随着时间来改变其速度。可以在chrome开发者工具中预览。
 
 
-JS
----
+## JS
 
 > [HTML DOM setInterval() 方法](http://www.w3school.com.cn/jsref/met_win_setinterval.asp)
 

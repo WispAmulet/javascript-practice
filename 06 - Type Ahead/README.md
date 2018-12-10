@@ -1,7 +1,4 @@
-Note
-===
-
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/06%20-%20Type%20Ahead/index.html)
+# Note
 
 ## html
 

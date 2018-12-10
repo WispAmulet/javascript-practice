@@ -1,6 +1,6 @@
 # README
 
-> [Preview online](https://wispamulet.github.io/javascript-practice/)
+> [Preview online](https://wispamulet.github.io/js30-practice/)
 
 > [Preview on Codepen](https://codepen.io/collection/DJNMGE/)
 
@@ -21,3 +21,5 @@
 [08 - Fun with HTML5 Canvas](../../08%20-%20Fun%20with%20HTML5%20Canvas)
 
 [09 - Dev Tools Domination](../../09%20-%20Dev%20Tools%20Domination)
+
+[10 - Hold Shift and Check Checkboxes](../../10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)

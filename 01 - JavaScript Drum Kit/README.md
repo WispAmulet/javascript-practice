@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/01%20-%20JavaScript%20Drum%20Kit/index.html)
-
-HTML
----
+## HTML
 
 > [data-*属性](http://www.w3school.com.cn/tags/att_global_data.asp)
 
@@ -35,8 +31,7 @@ window.addEventListener('keydown', (e) => {
 
 `<audio>`元素是一个 HTML5 元素，在 HTML 4 中是非法的，但在所有浏览器中都有效。
 
-CSS
----
+## CSS
 
 > [CSS3 background-size 属性](http://www.w3school.com.cn/cssref/pr_background-size.asp)
 
@@ -107,8 +102,7 @@ html {
 按键时为该元素添加play类，产生一个动态的按键效果。整个效果由`transition: all .07s ease;`来控制。
 效果完成后还需要一个函数来移除play类。
 
-JS
----
+## JS
 
 通过addEventListener监视keydown事件
 

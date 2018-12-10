@@ -1,8 +1,6 @@
-Note
-===
+# Note
 
-HTML
----
+## HTML
 
 基本结构如下
 
@@ -18,8 +16,7 @@ HTML
 </div>
 ```
 
-CSS
----
+## CSS
 
 把父级元素`.panels`设置为`flexbox`，子元素平分所有的空间
 
@@ -97,8 +94,7 @@ CSS
 }
 ```
 
-JS
----
+## JS
 
 ```js
 const panels = document.querySelectorAll('.panels .panel');
