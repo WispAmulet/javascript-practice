@@ -10,16 +10,16 @@
 
 [03 - CSS Variables](../../tree/master/03%20-%20CSS%20Variables)
 
-[04 - Array Cardio Day 1](../../04%20-%20Array%20Cardio%20Day%201)
+[04 - Array Cardio Day 1](../../tree/master/04%20-%20Array%20Cardio%20Day%201)
 
-[05 - Flex Panel Gallery](../../05%20-%20Flex%20Panel%20Gallery)
+[05 - Flex Panel Gallery](../../tree/master/05%20-%20Flex%20Panel%20Gallery)
 
-[06 - Type Ahead](../../06%20-%20Type%20Ahead)
+[06 - Type Ahead](../../tree/master/06%20-%20Type%20Ahead)
 
-[07 - Array Cardio Day 2](../../07%20-%20Array%20Cardio%20Day%202)
+[07 - Array Cardio Day 2](../../tree/master/07%20-%20Array%20Cardio%20Day%202)
 
-[08 - Fun with HTML5 Canvas](../../08%20-%20Fun%20with%20HTML5%20Canvas)
+[08 - Fun with HTML5 Canvas](../../tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
 
-[09 - Dev Tools Domination](../../09%20-%20Dev%20Tools%20Domination)
+[09 - Dev Tools Domination](../../tree/master/09%20-%20Dev%20Tools%20Domination)
 
-[10 - Hold Shift and Check Checkboxes](../../10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
+[10 - Hold Shift and Check Checkboxes](../../tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)

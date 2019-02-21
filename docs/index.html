@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>#Javascript30 - Learn javascript by doing</title>
-  <link rel="stylesheet" href="./src//style.css">
+  <link rel="stylesheet" href="./src/style.css">
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </head>
 
 <body>
@@ -27,45 +28,111 @@
       <span>0</span>
     </p>
   </div>
+
   <div class="note">
-    <p>This is a course for learning vanilla javascript with building 30 amazing things from @wesbos. This man really inspired me a lot. Follow him if you like!</p>
+    <p>This is a course for learning vanilla javascript with building 30 amazing things from @wesbos who really inspired me a lot. Follow him if you like!</p>
     <p>It's totally free. Find more at https://javascript30.com/</p>
   </div>
+
+  <div class="wrapper"></div>
   <div class="content">
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
-    <div class="day"></div>
+    <div class="day">
+      <div class="day-1"></div>
+      <p data-height="406" data-theme-id="0" data-slug-hash="zMWqeR" data-default-tab="css,result" data-user="WispAmulet" data-pen-title="JS30 #2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/WispAmulet/pen/zMWqeR/">JS30 #2</a> by y_ly (<a href="https://codepen.io/WispAmulet">@WispAmulet</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+    </div>
+    <div class="day">
+      <div class="day-2"></div>
+      <p data-height="406" data-theme-id="0" data-slug-hash="zMWqeR" data-default-tab="css,result" data-user="WispAmulet" data-pen-title="JS30 #2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/WispAmulet/pen/zMWqeR/">JS30 #2</a> by y_ly (<a href="https://codepen.io/WispAmulet">@WispAmulet</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+    </div>
+    <div class="day">
+      <div class="day-3"></div>
+    </div>
+    <div class="day">
+      <div class="day-4"></div>
+    </div>
+    <div class="day">
+      <div class="day-5"></div>
+    </div>
+    <div class="day">
+      <div class="day-6"></div>
+    </div>
+    <div class="day">
+      <div class="day-7"></div>
+    </div>
+    <div class="day">
+      <div class="day-8"></div>
+    </div>
+    <div class="day">
+      <div class="day-9"></div>
+    </div>
+    <div class="day">
+      <div class="day-10"></div>
+    </div>
+    <div class="day">
+      <div class="day-11"></div>
+    </div>
+    <div class="day">
+      <div class="day-12"></div>
+    </div>
+    <div class="day">
+      <div class="day-13"></div>
+    </div>
+    <div class="day">
+      <div class="day-14"></div>
+    </div>
+    <div class="day">
+      <div class="day-15"></div>
+    </div>
+    <div class="day">
+      <div class="day-16"></div>
+    </div>
+    <div class="day">
+      <div class="day-17"></div>
+    </div>
+    <div class="day">
+      <div class="day-18"></div>
+    </div>
+    <div class="day">
+      <div class="day-19"></div>
+    </div>
+    <div class="day">
+      <div class="day-20"></div>
+    </div>
+    <div class="day">
+      <div class="day-21"></div>
+    </div>
+    <div class="day">
+      <div class="day-22"></div>
+    </div>
+    <div class="day">
+      <div class="day-23"></div>
+    </div>
+    <div class="day">
+      <div class="day-24"></div>
+    </div>
+    <div class="day">
+      <div class="day-25"></div>
+    </div>
+    <div class="day">
+      <div class="day-26"></div>
+    </div>
+    <div class="day">
+      <div class="day-27"></div>
+    </div>
+    <div class="day">
+      <div class="day-28"></div>
+    </div>
+    <div class="day">
+      <div class="day-29"></div>
+    </div>
+    <div class="day">
+      <div class="day-30"></div>
+    </div>
   </div>
 </body>
 
 <script>
+  // hero text
   const text = document.querySelectorAll('.hero p span');
 
   function transform(el) {
@@ -80,6 +147,22 @@
   text.forEach(t => {
     transform(t);
   });
+
+  // click
+  const day = document.querySelectorAll('.day');
+  const wrapper = document.querySelector('.wrapper');
+  console.log(wrapper);
+
+  function click() {
+    const codepen = this.children[1];
+    console.log(codepen);
+    wrapper.classList.toggle('display');
+    codepen.classList.toggle('display');
+  }
+
+  day.forEach(d => {
+    d.addEventListener('click', click);
+  })
 </script>
 
 </html>
