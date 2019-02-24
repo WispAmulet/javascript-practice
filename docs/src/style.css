@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffc600;
+  background-color: var(--yellow);
   background-image: var(--bg-svg);
 }
 
@@ -31,4 +31,13 @@ body {
 
 .wrapper.display {
   display: block;
+}
+
+a {
+  color: var(--blue);
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.2rem;
 }
