@@ -23,3 +23,11 @@
 [09 - Dev Tools Domination](../../tree/master/09%20-%20Dev%20Tools%20Domination)
 
 [10 - Hold Shift and Check Checkboxes](../../tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
+
+[11 - Custom Video Player](../../tree/master/11%20-%20Custom%20Video%20Player)
+
+[12 - Key Sequence Detection](../../tree/master/12%20-%20Key%20Sequenceo%20Detection)
+
+[13 - Slide in on Scroll](../../tree/master/13%20-%20Slide%20in%20on%20Scroll)
+
+[14 - JavaScript Reference VS Copying](../../tree/master/14%20-%20JavaScript%20Reference%20VS%20Copying)
