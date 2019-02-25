@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/13%20-%20Slide%20in%20on%20Scroll/index.html)
-
-CSS
-===
+## CSS
 
 ```css
 .slide-in {
@@ -26,8 +22,7 @@ CSS
 
 所有的图片都设置了透明度为0，位移以及缩放效果，因此只要在合适的时机为它们添加`class="active"`，让它们恢复正常就能实现滚动时的`slide`特效。
 
-JS
-===
+## JS
 
 ```js
 function checkSlide(e) {

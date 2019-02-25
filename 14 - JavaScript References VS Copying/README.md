@@ -1,8 +1,5 @@
 # Note
 
-
-> [预览效果](https://wispamulet.github.io/javascript-practice/14%20-%20JavaScript%20References%20VS%20Copying/index.html)
-
 ## JS
 
 对于`Number`、`String`或`Boolean`型数据，可以直接得到一个想要的 copy。

@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/12%20-%20Key%20Sequence%20Detection/index.html)
-
-JS
-===
+## JS
 
 添加一个`EventListener`将按键保存至一个数组
 
