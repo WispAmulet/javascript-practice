@@ -26,8 +26,10 @@
 
 [11 - Custom Video Player](../../tree/master/11%20-%20Custom%20Video%20Player)
 
-[12 - Key Sequence Detection](../../tree/master/12%20-%20Key%20Sequenceo%20Detection)
+[12 - Key Sequence Detection](../../tree/master/12%20-%20Key%20Sequence%20Detection)
 
 [13 - Slide in on Scroll](../../tree/master/13%20-%20Slide%20in%20on%20Scroll)
 
-[14 - JavaScript Reference VS Copying](../../tree/master/14%20-%20JavaScript%20Reference%20VS%20Copying)
+[14 - JavaScript References VS Copying](../../tree/master/14%20-%20JavaScript%20References%20VS%20Copying)
+
+[15 - LocalStorage](../../tree/master/15%20-%20LocalStorage)
