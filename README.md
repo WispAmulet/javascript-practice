@@ -33,3 +33,9 @@
 [14 - JavaScript References VS Copying](../../tree/master/14%20-%20JavaScript%20References%20VS%20Copying)
 
 [15 - LocalStorage](../../tree/master/15%20-%20LocalStorage)
+
+[16 - Mouse Move Shadow](../../tree/master/16%20-%20Mouse%20Move%20Shadow)
+
+[17 - Sort Without Articles](../../tree/master/17%20-%20Sort%20Without%20Articles)
+
+[18 - Adding Up Times with Reduce](../../tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce)
