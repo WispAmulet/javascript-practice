@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/26%20-%20Stripe%20Follow%20Along%20Nav/index.html)
-
-HTML
-===
+## HTML
 
 ```html
 <nav class="top">
@@ -37,8 +33,7 @@ HTML
 1. 目的是为了给弹出的`2.`添加背景，默认`opacity: 0;`，当触发`mouseenter`事件时，`opacity: 1`，并且需要自适应宽度，高度以及位置
 2. 默认`opacity: 0; display: none;`，当触发`mouseenter`事件时，`opacity: 1; display: block;`
 
-CSS
-===
+## CSS
 
 ```css
 .dropdownBackground {
@@ -85,8 +80,7 @@ CSS
 
 需要注意的是，背景的宽高只设置为`100px`，然而由于设置了`display: flex;`，占用了整行的高度，额外设置`position: absolute;`。
 
-JS
-===
+## JS
 
 ```js
 const triggers = document.querySelectorAll('.cool > li');
@@ -212,8 +206,3 @@ setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add(
 ```
 
 添加一个判断条件，只有当`trigger-enter`生效时，才添加`trigger-enter-active`。
-
-
-
-
-

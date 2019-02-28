@@ -1,10 +1,6 @@
-Note
-===
+# Note
 
-> [预览效果](https://wispamulet.github.io/js-practice/javascript30.com/24%20-%20Sticky%20Nav/index.html)
-
-CSS
-===
+## CSS
 
 ```css
 nav {
@@ -39,8 +35,7 @@ li.logo {
   + 就算把初始`max-width`设置为0达到隐藏的效果，后续改为`width: auto`或是一个具体的值，也不会起作用
 + 除此之外，文章区域也改变了`scale`的值
 
-JS
-===
+## JS
 
 ```js
 const nav = document.querySelector('#main');
