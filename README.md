@@ -39,3 +39,29 @@
 [17 - Sort Without Articles](../../tree/master/17%20-%20Sort%20Without%20Articles)
 
 [18 - Adding Up Times with Reduce](../../tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce)
+
+[22 - Follow Along Link Highlighter](../../tree/master/22%20-%20Follow%20Along%20Link%20Highlighter)
+
+[23 - Speech Synthesis](../../tree/master/23%20-%20Speech%20Synthesis)
+
+[24 - Sticky Nav](../../tree/master/24%20-%20Sticky%20Nav)
+
+[25 - Event Capture, Propagation, Bubbling and Once](../../tree/master/25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once)
+
+[26 - Stripe Follow Along Nav](../../tree/master/26%20-%20Stripe%20Follow%20Along%20Nav)
+
+[28 - Video Speed Controller](../../tree/master/28%20-%20Video%20Speed%20Controller)
+
+## TODO
+
+[19]()
+
+[20]()
+
+[21]()
+
+[27]()
+
+[29]()
+
+[30]()
